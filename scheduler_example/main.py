@@ -28,6 +28,7 @@ def get_scheduler_config() -> AsynczConfig:
         tasks={
             "collect_market_data": "accounts.tasks",
             "send_newsletter": "accounts.tasks",
+            "scheduler_demo": "accounts.tasks",
         }
     )
 

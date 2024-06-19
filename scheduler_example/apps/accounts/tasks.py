@@ -12,7 +12,6 @@ logging.getLogger("esmerald").setLevel(logging.DEBUG)
 @scheduler(name="collect_data", trigger=IntervalTrigger(seconds=1), max_instances=3)
 def collect_market_data():
     logger.warning("Collecting market data")
-    ...
 
 
 @scheduler(
